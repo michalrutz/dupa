@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expenses with props 1`] = `
+<div>
+  <EditItem
+    expense={
+      Object {
+        "amount": 0,
+        "description": "none",
+      }
+    }
+  />
+</div>
+`;

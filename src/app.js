@@ -10,8 +10,8 @@ import { Provider } from 'react-redux';
 // components
 import Dashboard from "./dashboard";
 import Edit from "./comp/Edit";
+import "./firebase/firebase";
 
-const root = document.getElementById("jsx");
 
 const jsx = (
     <Provider store={store}>
@@ -20,16 +20,13 @@ const jsx = (
                 <p>Heloo</p>
                 <Route path="/" component={Dashboard} exact={true}/>
                 <Route path="/:id" component={Edit} exact={true}/>
-
             </div>
         </BrowserRouter>
     </Provider>
 );
 
-// const one = store.dispatch( addExpense( {description: "Rent"} ) );
-console.log(store.getState())
 
-ReactDOM.render(jsx,root);
+ReactDOM.render(jsx, document.getElementById("jsx"));
 if (process.env.NODE_ENV !== 'production') {
     console.log('Looks like we are in development mode!');
 }

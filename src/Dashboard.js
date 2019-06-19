@@ -1,15 +1,14 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import { addExpense } from "./actions/ex";
+import { addExpense, addExpenseFB } from "./actions/ex";
 import Hello from "./comp/Hello";
 
 const Dashboard = ( props ) => (
     <div>
     <form onSubmit={(e) => {
         e.preventDefault();
-        props.dispatch(addExpense ( {description: document.getElementById("addedEx").value} ))
-        console.log(document.getElementById("addedEx").value);
+        props.dispatch(addExpenseFB ( {description: document.getElementById("addedEx").value} ))
         } } > 
         <input type="text" id="addedEx"/>
         <button type="submit">submit</button>

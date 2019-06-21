@@ -3,7 +3,7 @@
 exports[`render Hello 1`] = `
 <div>
   <h1>
-    Hello
+    Hello 4!
   </h1>
 </div>
 `;
@@ -11,7 +11,7 @@ exports[`render Hello 1`] = `
 exports[`render Hello 2`] = `
 <div>
   <h1>
-    Hello
+    Hello 4!
   </h1>
 </div>
 `;

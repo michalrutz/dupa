@@ -4,7 +4,6 @@ import {BrowserRouter, Route} from "react-router-dom"
 //store
 import configureStore from "./store/configureStore";
 const store = configureStore();
-import { addExpense } from "./actions/ex"
 //redux
 import { Provider } from 'react-redux';
 // components

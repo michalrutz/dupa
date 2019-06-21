@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import { addExpense, addExpenseFB } from "./actions/ex";
+import { addExpenseFB } from "./actions/expenses";
 import Hello from "./comp/Hello";
 
 const Dashboard = ( props ) => (

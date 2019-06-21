@@ -5,8 +5,8 @@ exports[`expenses with props 1`] = `
   <EditItem
     expense={
       Object {
-        "amount": 0,
-        "description": "none",
+        "amount": 40,
+        "description": "Tom",
       }
     }
   />

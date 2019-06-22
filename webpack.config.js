@@ -1,5 +1,6 @@
 const webpack = require('webpack')
 const path = require("path");
+//WTF
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
